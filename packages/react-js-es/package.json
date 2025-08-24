@@ -1,9 +1,9 @@
 {
   "name": "@sikuthenomad/create-react-js-es",
-  "version": "5.3.7",
-  "description": "Proporciona una versión limpia de la plantilla generada por `npm create vite@latest -> React -> Javascript`. Solicita el nombre del proyecto. El número de versión siempre representará la versión de Vite con la que está sincronizado este proyecto.",
+  "version": "1.0.0",
+  "description": "Proporciona una versión limpia de la plantilla generada por `npm create vite@latest -> React -> Javascript`.",
   "bin": {
-    "create-react-js-es": "bin/create.js"
+    "create-react-js-es": "./bin/create.js"
   },
   "scripts": {
     "test": "echo \"Aún no hay pruebas\" && exit 0"
@@ -15,17 +15,18 @@
     "cli"
   ],
   "author": "SikuTheNomad",
-  "homepage": "https://github.com/SikuTheNomad/tree/main/packages/react-js-es#readme",
   "license": "MIT",
-  "type": "git",
+  "homepage": "https://github.com/SikuTheNomad/npm-react/tree/main/packages/react-js-es#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SikuTheNomad/npm-react-js-es.git"
+    "url": "git+https://github.com/SikuTheNomad/npm-react.git",
+    "directory": "packages/react-js-es"
+  },
+  "bugs": {
+    "url": "https://github.com/SikuTheNomad/npm-react/issues"
   },
   "dependencies": {
     "prompts": "^2.4.2"
-  },
-  "bugs": {
-    "url": "https://github.com/SikuTheNomad/npm-react-js-es/issues"
   }
 }
+
