@@ -1,9 +1,9 @@
 {
-  "name": "@sikuthenomad/react-js",
+  "name": "@sikuthenomad/react-js-es",
   "version": "5.3.7",
   "description": "Proporciona una versión limpia de la plantilla generada por `npm create vite@latest -> React -> Javascript`. Solicita el nombre del proyecto. El número de versión siempre representará la versión de Vite con la que está sincronizado este proyecto.",
   "bin": {
-    "react-js-es": "./bin/create.js"
+    "react-js-es": "bin/create.js"
   },
   "scripts": {
     "test": "echo \"Aún no hay pruebas\" && exit 0"

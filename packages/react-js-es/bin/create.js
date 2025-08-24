@@ -40,6 +40,12 @@ async function main() {
 
   copyDir(templateDir, targetDir)
 
+  const gitignorePath = path.join(targetDir, '_gitignore')
+  const newGitignorePath = path.join(targetDir, '.gitignore')
+  if (fs.existsSync(gitignorePath)) {
+    fs.renameSync(gitignorePath, newGitignorePath)
+  }
+
   const packageJsonPath = path.join(targetDir, 'package.json')
   const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'))
   packageJson.name = projectName
